@@ -1,10 +1,20 @@
-The current focus of this repo is the SHT-36 by Mellow.  Mounting plates are available that align with the motor orientation of the following extruders: Sherpa Mini, LGX Lite, Sailfin, and the LDO version of the Orbiter(plate for the old style orientation on the way).  Mini Afterburner should be able to utilize the Sherpa Mini plate.  I haven't looked at mounting for AB/SB yet, but plan to at least see what kind of mess it might be.  The brackets for Sailfin and Orbiter will work if mirrored on X, to match mirrored extruders.  If there's a common extruder with a different motor orientation that I missed, just message me on Discord.
+# Mounting Solution for Mellow SHT-36
+The current files align with the motor orientation of the following extruders: 
+* Sherpa Mini
+* LGX Lite
+* Sailfin
+* Orbiter v1.5
+* Orbiter v2.0.  
+
+Be sure which version of Orbiter you have before printing.  They use different motor orientations.  Mini Afterburner should be able to utilize the Sherpa Mini plate.  I haven't looked at mounting for AB/SB yet, but plan to at least see what kind of mess it might be.  The brackets for Sailfin and Orbiter will work if mirrored on X, to match mirrored extruders.  If there's a common extruder with a different motor orientation that I missed, just message me on Discord.  Since these boards carry an adxl345, its important to have them oriented perpendicular to the movement axes of the printer.
+
+![](images/full_lineup.png)
 
 Here's what it looks like in CAD on an LGX Lite:
 ![](images/complete_front.png) ![](images/complete_rear.png)
 
 
-There are folders for each type of mounting plate: plain, or with strain relief.
+There plates are sorted into two folders: plain, or with strain relief.  There is a single step file in the CAD folder that contains all the parts.
 ![](images/lineup_w_boards.png)
 ![](images/full_lineup.png)
 ![](images/extruders.png)
