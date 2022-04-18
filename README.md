@@ -8,16 +8,20 @@ The current files align with the motor orientation of the following extruders:
 
 Be sure which version of Orbiter you have before printing.  They use different motor orientations.  Mini Afterburner should be able to utilize the Sherpa Mini plate.  I haven't looked at mounting for AB/SB yet, but plan to at least see what kind of mess it might be.  The brackets for Sailfin and Orbiter will work if mirrored on X, to match mirrored extruders.  If there's a common extruder with a different motor orientation that I missed, just message me on Discord.  Since these boards carry an adxl345, its important to have them oriented perpendicular to the movement axes of the printer.
 
+
+
 ![](images/full_lineup.png)
 
 Here's what it looks like in CAD on an LGX Lite:
 ![](images/complete_front.png) ![](images/complete_rear.png)
 
 
-There plates are sorted into two folders: plain, or with strain relief.  There is a single step file in the CAD folder that contains all the parts.
+There are now 3 types of plates available: plain, strain relief, and overmold strain relief.  Each has a dedicated folder for the related stls.  The basic strain relief is for most diy cables.  The overmold strain relief is for retail cables available from Molex, as shown below.  The size of the fittings dictated a new bracket to suit it.  There is a single step file in the CAD folder that contains all the parts.
 ![](images/lineup_w_boards.png)
 ![](images/full_lineup.png)
 ![](images/extruders.png)
+![](images/overmolded_strain_relief.png)
+![](images/overmolded_strain_relief2.png)
 
 It seems as though the output for the stepper can be switched to the other side of the board if the user wanted it so.  The bracket base geometry has clearance for that in regular and mirrored orientation.  
 ![](images/stepper_plug_orientations.png)
