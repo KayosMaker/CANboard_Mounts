@@ -1,8 +1,7 @@
 # Mounting Solutions for CANbus Toolhead Boards
 Files are available to support the following boards:
-* BTT EBB36 CAN
+* BTT EBB36 CAN v1.0(versions 1.1 and 1.2 are out, and have different molex placement.  The mounts for FLY SHT-36 *may* work with these boards, but I have not tested it or looked at things in CAD.  I'll be looking at this first thing, after MRRF)
 * Mellow FLY SHT-36
-
 ![](images/ebb36_bracket.png) ![](images/sht36_complete_rear.png)
 
 
