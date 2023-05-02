@@ -19,15 +19,11 @@ Since each popular extruder using a NEMA 14 seems to use it's own unique motor o
 ### VZ HextrudORT Extruder Compatibility
 I looked at these in CAD and found that none of my current mounts are a perfect fit.  There are usable options, but they are off by 1 or 2 degrees from perfect alignment.  I plan to add dedicated mounts with perfect alignment.  In the meantime, here are the mounts that can be used, if printed in a mirrored orientation:
 
-VZ HextrudORT High Motor - Use the Orbiter 2.0 mount, mirrored across X.
-
-VZ HextrudORT Low Motor - Use the LGX Lite mount, mirrored across X.
-
-VZ HextrudORT Low Motor Helical Gear - Use the LGX Lite mount, mirrored across X.
-
-VZ HextrudORT Low Motor ERCF - Use the LGX Lite mount, mirrored across X.
-
-VZ HextrudORT CNC - Use the Orbiter 1.5 mount, mirrored across X.
+* VZ HextrudORT High Motor - Use the Orbiter 2.0 mount, mirrored across X.
+* VZ HextrudORT Low Motor - Use the LGX Lite mount, mirrored across X.
+* VZ HextrudORT Low Motor Helical Gear - Use the LGX Lite mount, mirrored across X.
+* VZ HextrudORT Low Motor ERCF - Use the LGX Lite mount, mirrored across X.
+* VZ HextrudORT CNC - Use the Orbiter 1.5 mount, mirrored across X.
 
 
 
