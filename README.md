@@ -6,9 +6,12 @@ Files are available to support the following boards:
 * Mellow FLY SHT-36
 * Mellow FLY SHT-36 2.0
 
+The EBB36 1.0 had rear facing buttons that necessitated a more complicated mount to retain functionality.  Those mounts are in a dedicated folder.  
+
+The EBB36 v1.1, EBB36 v1.2, Mellow Fly SHT-36, and Mellow FLY SHT-36 v2.0 all use the same set of mounts.  They are in a dedicated folder.
 
 ## Extruder Compatibility
-Since each popular extruder using a NEMA 14 seems to use it's own unique motor orientation, I created this set of mounts to cover most common setups.  These mounts allow the board to be oriented properly with the umbilical strain relief pointing up, despite the different motor orientations.  If there's a common extruder with a different motor orientation that I missed, just message me on Discord or open an issue here on Git to let me know.  The current files align with the motor orientations of the following extruders: 
+Since each extruder using a NEMA 14 seems to use it's own unique motor orientation, I created this set of mounts to cover most common setups.  These mounts allow the board to be oriented properly with the umbilical strain relief pointing up, despite the different motor orientations.  If there's a common extruder with a different motor orientation that I missed, just message me on Discord or open an issue here on Git to let me know.  The current files align with the motor orientations of the following extruders: 
 * Sherpa Mini
 * LGX Lite
 * Sailfin (OG Sailfin as well as my silly Sharkfin mod)
