@@ -8,13 +8,28 @@ Files are available to support the following boards:
 
 
 ## Extruder Compatibility
-Since each popular extruder using a NEMA 14 motor seems to use it's own unique motor orientation, I created this set of mounts to cover most common setups.  These mounts allow the board to be oriented properly with the umbilical strain relief pointing up, despite the different motor orientations.  I have found 5 different motor angles among common NEMA 14 extruders in open source 3D printing.  If there's a common extruder with a different motor orientation that I missed, just message me on Discord or open an issue here on Git.  The current files align with the motor orientation of the following extruders: 
+Since each popular extruder using a NEMA 14 seems to use it's own unique motor orientation, I created this set of mounts to cover most common setups.  These mounts allow the board to be oriented properly with the umbilical strain relief pointing up, despite the different motor orientations.  If there's a common extruder with a different motor orientation that I missed, just message me on Discord or open an issue here on Git to let me know.  The current files align with the motor orientations of the following extruders: 
 * Sherpa Mini
 * LGX Lite
 * Sailfin (OG Sailfin as well as my silly Sharkfin mod)
 * Orbiter v1.5
 * Orbiter v2.0.  
 ![](images/extruders.png)
+
+### VZ HextrudORT Extruder Compatibility
+I looked at these in CAD and found that none of my current mounts are a perfect fit.  There are usable options, but they are off by 1 or 2 degrees from perfect alignment.  I plan to add dedicated mounts with perfect alignment.  In the meantime, here are the mounts that can be used, if printed in a mirrored orientation:
+
+VZ HextrudORT High Motor - Use the Orbiter 2.0 mount, mirrored across X.
+
+VZ HextrudORT Low Motor - Use the LGX Lite mount, mirrored across X.
+
+VZ HextrudORT Low Motor Helical Gear - Use the LGX Lite mount, mirrored across X.
+
+VZ HextrudORT Low Motor ERCF - Use the LGX Lite mount, mirrored across X.
+
+VZ HextrudORT CNC - Use the Orbiter 1.5 mount, mirrored across X.
+
+
 
 ## Plate Types
 There are 3 types of plates available: plain, strain relief, and overmold strain relief.  Each has a dedicated folder for the related stls.  The basic strain relief is for most diy cables.  The overmold strain relief is for retail cables available from Molex.  The plain brackets are for printers that have their own solution for umbilical or cable chains. 
