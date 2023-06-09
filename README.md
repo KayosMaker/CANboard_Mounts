@@ -6,28 +6,22 @@ Files are available to support the following boards:
 * Mellow FLY SHT-36
 * Mellow FLY SHT-36 2.0
 
-The EBB36 1.0 had rear facing buttons that necessitated a more complicated mount to retain functionality.  Those mounts are in a dedicated folder.  
+The EBB36 1.0 had rear facing buttons that necessitated a more complicated mount to retain functionality.  Those mounts are in a dedicated folder.  (Note: I won't be updating the mounts for this board to include additional extruders, since it has been superceded by v1.1 and v1.2)  
 
 The EBB36 v1.1, EBB36 v1.2, Mellow Fly SHT-36, and Mellow FLY SHT-36 v2.0 all use the same set of mounts.  They are in a dedicated folder.
 
 ## Extruder Compatibility
 Since each extruder using a NEMA 14 seems to use it's own unique motor orientation, I created this set of mounts to cover most common setups.  These mounts allow the board to be oriented properly with the umbilical strain relief pointing up, despite the different motor orientations.  If there's a common extruder with a different motor orientation that I missed, just message me on Discord or open an issue here on Git to let me know.  The current files align with the motor orientations of the following extruders: 
 * Sherpa Mini
+* Sherpa Micro
 * LGX Lite
 * Sailfin (OG Sailfin as well as my silly Sharkfin mod)
 * Orbiter v1.5
-* Orbiter v2.0.  
+* Orbiter v2.0
+* VZHextrudort High
+* VZHextrudort Low
+* VZHextrudort CNC
 ![](images/extruders.png)
-
-### VZ HextrudORT Extruder Compatibility
-I looked at these in CAD and found that none of my current mounts are a perfect fit.  There are usable options, but they are off by 1 or 2 degrees from perfect alignment.  I plan to add dedicated mounts with perfect alignment.  In the meantime, here are the mounts that can be used, if printed in a mirrored orientation:
-
-* VZ HextrudORT High Motor - Use the Orbiter 2.0 mount, mirrored across X.
-* VZ HextrudORT Low Motor - Use the LGX Lite mount, mirrored across X.
-* VZ HextrudORT Low Motor Helical Gear - Use the LGX Lite mount, mirrored across X.
-* VZ HextrudORT Low Motor ERCF - Use the LGX Lite mount, mirrored across X.
-* VZ HextrudORT CNC - Use the Orbiter 1.5 mount, mirrored across X.
-
 
 
 ## Plate Types
