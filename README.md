@@ -21,6 +21,7 @@ Since each extruder using a NEMA 14 seems to use it's own unique motor orientati
 * VZHextrudort High
 * VZHextrudort Low
 * VZHextrudort CNC
+* Galileo 2 Standalone(works with Orbiter v2 mounts)
 ![](images/extruders.png)
 
 
