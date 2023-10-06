@@ -49,3 +49,4 @@ There are 3 styles of standoff posts available.  They print in the orientation s
 Mod|Description|Link
 |:--------:|:-------------------------:|:---:|
 Reapola's Galileo Mounts|Mounts for rear or side of Galileo, with CAD|https://github.com/KayosMaker/CANboard_Mounts/tree/main/Usermods/Reapola/Galileo%20Mount%20for%20SHT36
+K78L12-500R3 Mounts|Mounts with K78L12-500R3 included, with CAD|https://github.com/KayosMaker/CANboard_Mounts/tree/main/Usermods/mk-maddin/K78l12-500R3_24-12V_mount
